@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "ControlTower.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ControlTower.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControlTower.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlTower.Application.dll": {}
+        }
+      },
+      "ControlTower.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ControlTower.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlTower.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlTower.Application/1.0.0": {
+      "type": "project",
+      "path": "../ControlTower.Application/ControlTower.Application.csproj",
+      "msbuildProject": "../ControlTower.Application/ControlTower.Application.csproj"
+    },
+    "ControlTower.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ControlTower.Domain/ControlTower.Domain.csproj",
+      "msbuildProject": "../ControlTower.Domain/ControlTower.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "ControlTower.Application >= 1.0.0",
+      "ControlTower.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aguilar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj",
+      "projectName": "ControlTower.Infrastructure",
+      "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Aguilar\\.nuget\\packages\\",
+      "outputPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
+              "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj"
+            },
+            "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
+              "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

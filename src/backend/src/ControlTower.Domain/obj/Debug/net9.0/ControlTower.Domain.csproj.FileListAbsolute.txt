@@ -1,0 +1,12 @@
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\bin\Debug\net9.0\ControlTower.Domain.deps.json
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\bin\Debug\net9.0\ControlTower.Domain.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\bin\Debug\net9.0\ControlTower.Domain.pdb
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.AssemblyInfoInputs.cache
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.AssemblyInfo.cs
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.csproj.CoreCompileInputs.cache
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.sourcelink.json
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\refint\ControlTower.Domain.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ControlTower.Domain.pdb
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Domain\obj\Debug\net9.0\ref\ControlTower.Domain.dll
