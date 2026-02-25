@@ -1,0 +1,16 @@
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\bin\Debug\net9.0\ControlTower.Application.deps.json
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\bin\Debug\net9.0\ControlTower.Application.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\bin\Debug\net9.0\ControlTower.Application.pdb
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\bin\Debug\net9.0\ControlTower.Domain.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\bin\Debug\net9.0\ControlTower.Domain.pdb
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.csproj.AssemblyReference.cache
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.AssemblyInfoInputs.cache
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.AssemblyInfo.cs
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.csproj.CoreCompileInputs.cache
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.sourcelink.json
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlT.084F586D.Up2Date
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\refint\ControlTower.Application.dll
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ControlTower.Application.pdb
+D:\source\umg\noveno\ControlTowerLogistics09\src\backend\src\ControlTower.Application\obj\Debug\net9.0\ref\ControlTower.Application.dll
