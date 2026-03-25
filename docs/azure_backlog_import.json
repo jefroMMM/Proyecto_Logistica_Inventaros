@@ -1,0 +1,874 @@
+[
+  {
+    "type": "Epic",
+    "title": "Gestión de Usuarios y Seguridad",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Autenticación",
+    "parent": "Gestión de Usuarios y Seguridad",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-01 – Inicio de sesión",
+    "parent": "Autenticación",
+    "description": "Como usuario del sistema quiero iniciar sesión para acceder a las funciones del sistema.",
+    "acceptance": "El sistema solicita usuario y contraseña.\nValida credenciales.\nMuestra error si son incorrectas.\nPermite acceso según rol.",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad Usuario",
+    "parent": "US-01 – Inicio de sesión",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Crear tabla usuarios",
+    "parent": "US-01 – Inicio de sesión",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Crear endpoint login",
+    "parent": "US-01 – Inicio de sesión",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Implementar validación de credenciales",
+    "parent": "US-01 – Inicio de sesión",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Crear formulario login frontend",
+    "parent": "US-01 – Inicio de sesión",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "User Story",
+    "title": "US-02 – Gestión de roles",
+    "parent": "Autenticación",
+    "description": "Como administrador quiero gestionar roles para controlar accesos al sistema.",
+    "acceptance": "Se pueden crear roles.\nSe pueden asignar roles a usuarios.\nEl sistema restringe accesos según rol.",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad Rol",
+    "parent": "US-02 – Gestión de roles",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Relación Usuario-Rol",
+    "parent": "US-02 – Gestión de roles",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "CRUD roles",
+    "parent": "US-02 – Gestión de roles",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Task",
+    "title": "Validación de permisos",
+    "parent": "US-02 – Gestión de roles",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 1"
+  },
+  {
+    "type": "Epic",
+    "title": "Gestión de Vehículos",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Administración de flotilla",
+    "parent": "Gestión de Vehículos",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-03 – Registrar vehículo",
+    "parent": "Administración de flotilla",
+    "description": "Como operador quiero registrar vehículos para administrar la flotilla disponible.",
+    "acceptance": "Registrar placa.\nRegistrar tipo.\nRegistrar capacidad.\nRegistrar estado.",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad Vehiculo",
+    "parent": "US-03 – Registrar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Crear tabla Vehiculos",
+    "parent": "US-03 – Registrar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint POST vehiculos",
+    "parent": "US-03 – Registrar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Validaciones de placa única",
+    "parent": "US-03 – Registrar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Formulario frontend",
+    "parent": "US-03 – Registrar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "User Story",
+    "title": "US-04 – Consultar vehículos",
+    "parent": "Administración de flotilla",
+    "description": "Como usuario quiero consultar vehículos para ver su disponibilidad.",
+    "acceptance": "Endpoint GET vehiculos.\nFiltro por estado.\nBúsqueda por placa.\nTabla frontend.",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint GET vehiculos",
+    "parent": "US-04 – Consultar vehículos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Filtro por estado",
+    "parent": "US-04 – Consultar vehículos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Búsqueda por placa",
+    "parent": "US-04 – Consultar vehículos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Tabla frontend",
+    "parent": "US-04 – Consultar vehículos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "User Story",
+    "title": "US-05 – Actualizar vehículo",
+    "parent": "Administración de flotilla",
+    "description": "Como operador quiero actualizar vehículos para mantener información actualizada.",
+    "acceptance": "Endpoint PUT vehiculos.\nValidaciones.\nFormulario edición.",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint PUT vehiculos",
+    "parent": "US-05 – Actualizar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Validaciones",
+    "parent": "US-05 – Actualizar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Formulario edición",
+    "parent": "US-05 – Actualizar vehículo",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Epic",
+    "title": "Gestión de Pilotos",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Administración de pilotos",
+    "parent": "Gestión de Pilotos",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-06 – Registrar piloto",
+    "parent": "Administración de pilotos",
+    "description": "Como operador quiero registrar pilotos para asignarlos a viajes.",
+    "acceptance": "Crear entidad Piloto.\nCrear tabla pilotos.\nEndpoint POST pilotos.\nValidar licencia única.",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad Piloto",
+    "parent": "US-06 – Registrar piloto",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Crear tabla pilotos",
+    "parent": "US-06 – Registrar piloto",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint POST pilotos",
+    "parent": "US-06 – Registrar piloto",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Validar licencia única",
+    "parent": "US-06 – Registrar piloto",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "User Story",
+    "title": "US-07 – Consultar pilotos",
+    "parent": "Administración de pilotos",
+    "description": "Como usuario quiero consultar pilotos para ver disponibilidad.",
+    "acceptance": "Endpoint GET pilotos.\nFiltros.\nVista frontend.",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint GET pilotos",
+    "parent": "US-07 – Consultar pilotos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Filtros",
+    "parent": "US-07 – Consultar pilotos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Task",
+    "title": "Vista frontend",
+    "parent": "US-07 – Consultar pilotos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 2"
+  },
+  {
+    "type": "Epic",
+    "title": "Gestión de Rutas",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Administración de rutas",
+    "parent": "Gestión de Rutas",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-08 – Registrar ruta",
+    "parent": "Administración de rutas",
+    "description": "Como administrador quiero registrar rutas para definir trayectos.",
+    "acceptance": "Crear entidad Ruta.\nCrear tabla rutas.\nEndpoint POST rutas.\nValidar duplicados.",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad Ruta",
+    "parent": "US-08 – Registrar ruta",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Task",
+    "title": "Crear tabla rutas",
+    "parent": "US-08 – Registrar ruta",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint POST rutas",
+    "parent": "US-08 – Registrar ruta",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Task",
+    "title": "Validar duplicados",
+    "parent": "US-08 – Registrar ruta",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "User Story",
+    "title": "US-09 – Consultar rutas",
+    "parent": "Administración de rutas",
+    "description": "Como usuario quiero consultar rutas para analizar recorridos.",
+    "acceptance": "Endpoint GET rutas.\nFiltro origen destino.",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint GET rutas",
+    "parent": "US-09 – Consultar rutas",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Task",
+    "title": "Filtro origen destino",
+    "parent": "US-09 – Consultar rutas",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 3"
+  },
+  {
+    "type": "Epic",
+    "title": "Gestión de Viajes",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Registro de viajes",
+    "parent": "Gestión de Viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-10 – Crear viaje",
+    "parent": "Registro de viajes",
+    "description": "Como operador quiero crear un viaje para gestionar transporte.",
+    "acceptance": "Seleccionar vehículo.\nSeleccionar piloto.\nSeleccionar ruta.\nRegistrar hora salida.",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad Viaje",
+    "parent": "US-10 – Crear viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Crear tabla viajes",
+    "parent": "US-10 – Crear viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint POST viajes",
+    "parent": "US-10 – Crear viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Validación de datos",
+    "parent": "US-10 – Crear viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "UI registro viaje",
+    "parent": "US-10 – Crear viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "User Story",
+    "title": "US-11 – Consultar viajes",
+    "parent": "Registro de viajes",
+    "description": "Como usuario quiero consultar viajes para monitorear la operación.",
+    "acceptance": "Endpoint GET viajes.\nFiltros por fecha.\nFiltro por estado.\nTabla frontend.",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint GET viajes",
+    "parent": "US-11 – Consultar viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Filtros por fecha",
+    "parent": "US-11 – Consultar viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Filtro por estado",
+    "parent": "US-11 – Consultar viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "Task",
+    "title": "Tabla frontend",
+    "parent": "US-11 – Consultar viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 4"
+  },
+  {
+    "type": "User Story",
+    "title": "US-12 – Actualizar estado del viaje",
+    "parent": "Registro de viajes",
+    "description": "Como operador quiero actualizar el estado del viaje para reflejar el avance operativo.",
+    "acceptance": "Endpoint actualizar estado.\nControl de estados.\nHistorial de cambios.",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint actualizar estado",
+    "parent": "US-12 – Actualizar estado del viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Task",
+    "title": "Control de estados",
+    "parent": "US-12 – Actualizar estado del viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Task",
+    "title": "Historial de cambios",
+    "parent": "US-12 – Actualizar estado del viaje",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "User Story",
+    "title": "US-13 – Registrar llegada",
+    "parent": "Registro de viajes",
+    "description": "Como operador quiero registrar la llegada para calcular el tiempo real del viaje.",
+    "acceptance": "Endpoint registrar llegada.\nCalcular tiempo real.\nValidar hora llegada.",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint registrar llegada",
+    "parent": "US-13 – Registrar llegada",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Task",
+    "title": "Calcular tiempo real",
+    "parent": "US-13 – Registrar llegada",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Task",
+    "title": "Validar hora llegada",
+    "parent": "US-13 – Registrar llegada",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 5"
+  },
+  {
+    "type": "Epic",
+    "title": "Alertas operativas",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Alertas automáticas",
+    "parent": "Alertas operativas",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-14 – Alerta por retraso",
+    "parent": "Alertas automáticas",
+    "description": "Como supervisor quiero recibir alertas de retraso para tomar decisiones.",
+    "acceptance": "Comparar tiempo estimado vs real.\nCrear entidad alerta.\nRegistrar alerta.\nMostrar alerta en dashboard.",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Task",
+    "title": "Comparar tiempo estimado vs real",
+    "parent": "US-14 – Alerta por retraso",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad alerta",
+    "parent": "US-14 – Alerta por retraso",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Task",
+    "title": "Registrar alerta",
+    "parent": "US-14 – Alerta por retraso",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Task",
+    "title": "Mostrar alerta en dashboard",
+    "parent": "US-14 – Alerta por retraso",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "User Story",
+    "title": "US-15 – Vehículos inactivos",
+    "parent": "Alertas automáticas",
+    "description": "Como supervisor quiero identificar vehículos inactivos para mejorar la utilización de la flotilla.",
+    "acceptance": "Consulta vehículos sin viajes.\nMostrar reporte.",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Task",
+    "title": "Consulta vehículos sin viajes",
+    "parent": "US-15 – Vehículos inactivos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Task",
+    "title": "Mostrar reporte",
+    "parent": "US-15 – Vehículos inactivos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 6"
+  },
+  {
+    "type": "Epic",
+    "title": "Dashboard operativo",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Indicadores",
+    "parent": "Dashboard operativo",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-16 – Dashboard principal",
+    "parent": "Indicadores",
+    "description": "Como gerente operativo quiero ver el dashboard principal para monitorear KPIs.",
+    "acceptance": "Endpoint KPIs.\nViajes del día.\nViajes finalizados.\nViajes retrasados.\nVehículos activos.",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint KPIs",
+    "parent": "US-16 – Dashboard principal",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Viajes del día",
+    "parent": "US-16 – Dashboard principal",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Viajes finalizados",
+    "parent": "US-16 – Dashboard principal",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Viajes retrasados",
+    "parent": "US-16 – Dashboard principal",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Vehículos activos",
+    "parent": "US-16 – Dashboard principal",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "User Story",
+    "title": "US-17 – Indicador cumplimiento rutas",
+    "parent": "Indicadores",
+    "description": "Como supervisor quiero ver el indicador de cumplimiento para evaluar eficiencia operativa.",
+    "acceptance": "Calcular cumplimiento.\nEndpoint reporte.\nGráfica frontend.",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Calcular cumplimiento",
+    "parent": "US-17 – Indicador cumplimiento rutas",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint reporte",
+    "parent": "US-17 – Indicador cumplimiento rutas",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Task",
+    "title": "Gráfica frontend",
+    "parent": "US-17 – Indicador cumplimiento rutas",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 7"
+  },
+  {
+    "type": "Epic",
+    "title": "Reportería",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Reportes operativos",
+    "parent": "Reportería",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-18 – Reporte de viajes",
+    "parent": "Reportes operativos",
+    "description": "Como supervisor quiero generar reportes de viajes para analizar la operación.",
+    "acceptance": "Endpoint reporte.\nFiltros.\nExportación CSV.",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "Task",
+    "title": "Endpoint reporte",
+    "parent": "US-18 – Reporte de viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "Task",
+    "title": "Filtros",
+    "parent": "US-18 – Reporte de viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "Task",
+    "title": "Exportación CSV",
+    "parent": "US-18 – Reporte de viajes",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "User Story",
+    "title": "US-19 – Reporte de retrasos",
+    "parent": "Reportes operativos",
+    "description": "Como gerente quiero consultar reportes de retrasos para identificar causas recurrentes.",
+    "acceptance": "Consulta viajes retrasados.\nFiltro fechas.",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "Task",
+    "title": "Consulta viajes retrasados",
+    "parent": "US-19 – Reporte de retrasos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "Task",
+    "title": "Filtro fechas",
+    "parent": "US-19 – Reporte de retrasos",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 8"
+  },
+  {
+    "type": "Epic",
+    "title": "Auditoría",
+    "parent": "",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "Feature",
+    "title": "Bitácora del sistema",
+    "parent": "Auditoría",
+    "description": "",
+    "acceptance": "",
+    "iteration": ""
+  },
+  {
+    "type": "User Story",
+    "title": "US-20 – Registro de acciones",
+    "parent": "Bitácora del sistema",
+    "description": "Como administrador quiero auditar acciones del sistema para tener trazabilidad.",
+    "acceptance": "Crear entidad auditoria.\nRegistrar acciones.\nConsulta auditoría.",
+    "iteration": "Sprint 9"
+  },
+  {
+    "type": "Task",
+    "title": "Crear entidad auditoria",
+    "parent": "US-20 – Registro de acciones",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 9"
+  },
+  {
+    "type": "Task",
+    "title": "Registrar acciones",
+    "parent": "US-20 – Registro de acciones",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 9"
+  },
+  {
+    "type": "Task",
+    "title": "Consulta auditoría",
+    "parent": "US-20 – Registro de acciones",
+    "description": "",
+    "acceptance": "",
+    "iteration": "Sprint 9"
+  }
+]
