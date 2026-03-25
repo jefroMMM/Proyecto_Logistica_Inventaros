@@ -1,43 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj": {}
+    "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj": {}
   },
   "projects": {
-    "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj": {
+    "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj",
+        "projectUniqueName": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj",
         "projectName": "ControlTower.Api",
-        "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj",
-        "packagesPath": "C:\\Users\\Aguilar\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\obj\\",
+        "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\ControlTower.Api.csproj",
+        "packagesPath": "C:\\Users\\JefroMM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JefroMM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
-                "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj"
+              "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
+                "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj"
               },
-              "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj": {
-                "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj"
+              "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj"
               }
             }
           }
@@ -90,37 +83,30 @@
         }
       }
     },
-    "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
+    "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj",
+        "projectUniqueName": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj",
         "projectName": "ControlTower.Application",
-        "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj",
-        "packagesPath": "C:\\Users\\Aguilar\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\obj\\",
+        "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj",
+        "packagesPath": "C:\\Users\\JefroMM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JefroMM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
-                "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj"
+              "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
+                "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj"
               }
             }
           }
@@ -160,29 +146,22 @@
         }
       }
     },
-    "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
+    "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj",
         "projectName": "ControlTower.Domain",
-        "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj",
-        "packagesPath": "C:\\Users\\Aguilar\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\obj\\",
+        "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj",
+        "packagesPath": "C:\\Users\\JefroMM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JefroMM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -226,40 +205,33 @@
         }
       }
     },
-    "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj": {
+    "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj",
         "projectName": "ControlTower.Infrastructure",
-        "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Aguilar\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\ControlTower.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\JefroMM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\JefroMM\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
-                "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj"
+              "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj": {
+                "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Application\\ControlTower.Application.csproj"
               },
-              "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
-                "projectPath": "D:\\source\\umg\\noveno\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj"
+              "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj": {
+                "projectPath": "C:\\Users\\JefroMM\\ControlTowerLogistics09\\src\\backend\\src\\ControlTower.Domain\\ControlTower.Domain.csproj"
               }
             }
           }
